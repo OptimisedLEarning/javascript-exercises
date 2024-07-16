@@ -1,4 +1,4 @@
-const calculator = require('./calculator');
+const calculator = require('./Calculator');
 
 describe('add', () => {
   test('adds 0 and 0', () => {
@@ -75,3 +75,4 @@ describe('factorial', () => {
     expect(calculator.factorial(10)).toBe(3628800);
   });
 });
+
